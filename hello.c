@@ -5,8 +5,16 @@ int main()
 {
 	char c[30];
 	printf("Hello, world!\n");
-	scanf("%s", (char *) &c);
-	printf("You typed: %s\n", c);
+	printf("Type 'q' to quit.\n\n");
+
+	while (1)
+	{
+		printf("> ");
+		scanf("%s", (char *) &c);
+		if (c[0] == 'q')
+			break;
+	}
+	
 	return 0;
 }
 
