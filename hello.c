@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Program entry point
 int main()
 {
 	char c[30];
