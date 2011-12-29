@@ -9,7 +9,7 @@ int main()
 
 	while (1)
 	{
-		printf("> ");
+		printf(">  ");
 		scanf("%s", (char *) &c);
 		if (c[0] == 'q' || c[0] == 'Q')
 			break;
