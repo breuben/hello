@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+#define false 0
+#define true 1
+
 // Program entry point
 int main()
 {
@@ -7,7 +10,7 @@ int main()
 	printf("Hello, world!\n");
 	printf("Type 'q' to quit.\n\n");
 
-	while (1)
+	while (true)
 	{
 		printf(">  ");
 		scanf("%s", (char *) &c);
