@@ -11,7 +11,7 @@ int main()
 	{
 		printf("> ");
 		scanf("%s", (char *) &c);
-		if (c[0] == 'q')
+		if (c[0] == 'q' || c[0] == 'Q')
 			break;
 	}
 	
