@@ -3,7 +3,6 @@
 #define false 0
 #define true 1
 
-// Program entry point
 int main()
 {
 	char c[30];
