@@ -9,7 +9,7 @@ int main()
 	printf("Hello, world!\n");
 	printf("Type 'q' to quit.\n\n");
 
-	while (true)
+	for (;;)
 	{
 		printf("> ");
 		scanf("%s", (char *) &c);
