@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 #define false 0
 #define true 1
@@ -15,6 +16,9 @@ int main()
 		scanf("%s", (char *) &c);
 		if (c[0] == 'q' || c[0] == 'Q')
 			break;
+		
+		if (!strcmp(c, "error"))
+			return 1;
 	}
 	
 	return 0;
